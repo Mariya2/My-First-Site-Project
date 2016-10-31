@@ -1,0 +1,351 @@
+body{
+	font-family: Arial, Verdana, sans-serif;
+	line-height: 25px; 
+}
+h1 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-shadow: 1px 2px  2px #7A7F83;
+}
+
+ .clearfix() {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+	}
+}
+ 
+ .prices{
+	 margin-bottom: 50px;
+	 }
+	 .col-xs-offset-1 {
+	 margin-left: 0;}
+ 
+ .background{
+ width: 100%;
+ height:100px;
+
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+9,000000+9,000000+9,000000+9&0.65+10,0.65+10,0+79 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 9%, rgba(0,0,0,0.65) 10%, rgba(0,0,0,0) 79%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 9%,rgba(0,0,0,0.65) 10%,rgba(0,0,0,0) 79%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 9%,rgba(0,0,0,0.65) 10%,rgba(0,0,0,0) 79%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+	 }
+ 
+ #bt1{
+	 text-align: center;
+	 border: none;
+	 background: none;
+	 color: white;
+	 font-weight: bold;
+	 }
+ #info{
+	 text-align: justify;
+	 padding-left: 50px;
+	 	 padding-right: 50px;
+		 padding-bottom: 20px;
+	 }
+ 
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+ 
+  .item img{
+	  width: 100%;
+	  height: 100%
+	  }
+  
+  
+  /* home */
+  .black{
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  }
+  .testimonial-circle-image{
+  margin-top: 80px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, .2);
+  width: 230px;
+  height: 200px;
+  display: block;
+  }
+  
+  
+  .testimonial-circle-image :hover {
+  margin-bottom: 30px;
+  width: 110%;
+height: 110%;
+  }
+  
+  
+a:link {
+color: deeppink;
+text-decoration: none;}
+a:visited {
+color: black;}
+a:hover {
+color: deeppink;
+text-decoration: underline;}
+a:active {
+color: darkcyan;
+}
+
+
+.img-rounded {
+	width: 100%;
+	height: 100%;
+	z-index:1;
+}
+
+.img-rounded :hover{
+	width: 110%;
+	height: 110%;
+	padding: 4px;
+	z-index: 2;
+	margin-left:-10px;
+	margin-bottom: -20px;
+	border: 3px solid gray;
+	-webkit-transition-delay: 10ms;
+	-webkit-transition-property: margin-left, margin-bottom, padding, width, height, border;
+	-webkit-transition-duration: 500ms;
+	
+}
+#banana {
+	font-size: 24px;
+	-webkit-transition-delay: 10ms;
+	-webkit-transition-duration: 250ms;
+	}
+	#banana:hover {
+		font-size: 28px;
+		border: medium solid white;
+		background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfcfc+0,fcfcfc+0,ad08a2+50,fcfcfc+100,fcfcfc+100,fcfcfc+100,87bcea+100,fcfcfc+100,fcfcfc+100 */
+background: rgb(252,252,252); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(252,252,252,1) 0%, rgba(252,252,252,1) 0%, rgba(173,8,162,1) 50%, rgba(252,252,252,1) 100%, rgba(252,252,252,1) 100%, rgba(252,252,252,1) 100%, rgba(135,188,234,1) 100%, rgba(252,252,252,1) 100%, rgba(252,252,252,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(252,252,252,1) 0%,rgba(252,252,252,1) 0%,rgba(173,8,162,1) 50%,rgba(252,252,252,1) 100%,rgba(252,252,252,1) 100%,rgba(252,252,252,1) 100%,rgba(135,188,234,1) 100%,rgba(252,252,252,1) 100%,rgba(252,252,252,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(252,252,252,1) 0%,rgba(252,252,252,1) 0%,rgba(173,8,162,1) 50%,rgba(252,252,252,1) 100%,rgba(252,252,252,1) 100%,rgba(252,252,252,1) 100%,rgba(135,188,234,1) 100%,rgba(252,252,252,1) 100%,rgba(252,252,252,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#fcfcfc',GradientType=1 ); /* IE6-9 */
+;
+		color: white;
+		padding: 4px;
+		-webkit-transition-delay: 100ms;
+		-webkit-transition-property: background-color, color, padding,
+		font-size, border;
+		-webkit-transition-duration: 500ms;
+		    -webkit-transition-timing-function: linear; 
+		}   
+input {
+padding: 6px 12px 6px 12px;
+border: 1px solid #665544;
+color: #ffffff;}
+input.submit:hover {
+background-color: #665544;}
+input.submit:active {
+background-color: chocolate;}
+input.text {
+color: #cccccc;}
+input.text:focus {
+color: #665544;}
+
+
+
+.h4-bottom{
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    content: "";
+    width: 75%;
+    height: 3px;
+    background: solid rgba(255, 255, 255, .2);
+    bottom: 19px;
+    left: 12.5%;
+	text-align: center;
+}
+  
+  /*our fokus */
+  #focus > div > div.row > div:nth-child(3)
+  
+
+.focus .row .focus-box, .our-team .row .team-box {
+    display: inline-block;
+    float: none !important;
+    margin-right: -4px;
+    vertical-align: top;
+    margin-bottom: 25px;
+}
+.focus-box .service-icon {
+    margin-bottom: 30px;
+    width: 145px;
+    height: 145px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #ececec;
+    margin-bottom: 20px;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.focus-box .service-icon .pixeden {
+    border-radius: 50%;
+}
+.pixeden {
+    height: 63px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: block;
+}
+
+i {margin-top: 100px;
+    vertical-align: middle;
+}
+.focus-box h3 {
+    margin-bottom: 15px;
+    color: #404040;
+    position: relative;
+    /* display: inline-block; */
+    text-transform: uppercase;
+	text-align:center;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    float: none;
+    width: auto;
+    background: none;
+}
+
+/* =Simple animation up */
+.slideInUp {
+    ...
+    &.slideInUp2{transition-delay: 0.2s;}
+    &.slideInUp3{transition-delay: 0.4s;}
+}
+
+
+.red-border-bottom
+{
+	text-align:center;
+	padding-bottom: 6px;
+}
+  /* fokus end */ 
+  .border-top{
+  display: inline-block;
+  text-align:center;
+  width: 60%;
+  height: 5px;
+  margin-top: 8px;
+  border-top:  3px solid #D441FF;}
+  
+  /* portfolio */
+
+  
+	.portf{
+	
+		background-color: rgba(0,0,0,0.5);
+		border: 10px solid rgba(109, 107, 107, .2);
+		}
+		.portf-text{
+			margin-top: -40px;
+			text-align: center;
+			font-size: 1.3em;
+			font-weight: bold;
+			color: #6D6B6B;
+			}
+
+
+.col-sm-6{
+	padding: 15px;
+	margin: 0;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .img-rounded:hover {padding-left: -20px}
+}
+
+
+
+/* end portfolio */
+
+
+.list-group ul{
+	padding: 20px;
+}
+
+ .panel{
+text-align: center;
+padding:10px;
+ background: #8D64A8;
+ text-shadow: 2px 1px #E9E9E9;
+ }
+.panel-body{
+	border: 2px solid grey;
+	background: #FDD7FF;
+	text-align: center;
+}
+
+/* contacts*/
+ #contacts1{
+	 font-size: large;
+	 border: medium solid black;
+	 }
+ #contacts1:hover {
+	 -webkit-animation-delay: 100ms;
+	 -webkit-animation-duration: 2500ms;
+	 -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-timing-function: linear;
+	 -webkit-animation-name: 'GrowShrink';
+	 -webkit-animation-direction: alternate; 
+	 }
+	 @-webkit-keyframes GrowShrink {
+	from {
+		font-size: small;
+		background-color: red;
+}
+		50% {
+		background-color: yellow;
+		padding: 1px;
+		}
+		75% {
+			color: white;
+			padding: 2px;
+			}
+		to {
+		font-size: xx-large;
+		border: medium solid white;
+		background-color: green;
+		padding: 4px;
+		}
+	}
+	
+.magazine
+{
+-moz-column-count:3; /* Firefox */
+-webkit-column-count:3; /* Safari and Chrome */
+column-count:3;
+
+-moz-column-gap:40px; /* Firefox */
+-webkit-column-gap:40px; /* Safari and Chrome */
+column-gap:20px;
+
+-moz-column-rule:4px outset #ff00ff; /* Firefox */
+-webkit-column-rule:4px outset #ff00ff; /* Safari and Chrome */
+column-rule:6px outset #ff00ff;
+}
+
+.error {
+    display:none;
+    color:red;
+}
+
+/* footer */
